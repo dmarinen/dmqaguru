@@ -70,17 +70,5 @@ public class L02_PracticeFormTests {
 
     }
 
-//    @Test
-//    void testFillFormInvalidEmail() {
-//        open("https://demoqa.com/automation-practice-form");
-//        $(byId("userEmail")).val("invalid");
-//        $(byId("userNumber")).setValue("invalid");
-//        $("#submit").scrollTo().click();
-//        $("#firstName").shouldHave(cssClass("field-error"));
-//        $("#lastName").shouldHave(cssClass("field-error"));
-//        $("#userEmail").shouldHave(cssClass("field-error"));
-//        $("#userNumber").scrollTo().shouldHave(cssClass("field-error"));
-//
-//    }
 }
 
